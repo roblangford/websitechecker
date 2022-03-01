@@ -7,7 +7,7 @@ This is to allow monitoring of both public and private endpoints and I plan on d
 
 ## Planned Features
 
-Response time
-Date/Time Stamps
-Certificate checks
-Custom Headers
+- Response time
+- Date/Time Stamps 
+- Certificate checks 
+- Custom Headers 

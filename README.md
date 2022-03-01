@@ -11,3 +11,26 @@ This is to allow monitoring of both public and private endpoints and I plan on d
 - Date/Time Stamps 
 - Certificate checks 
 - Custom Headers 
+
+
+## Research
+
+### Requests
+Python3 has a simple requests library to make HTTP/1.1 requests without all the hassle of crafting query strings or form-encoding.
+
+```Python3
+# import requests module
+import requests
+
+# Making a get request
+response = requests.get('https://github.com/')
+
+# print request status code and response
+print(response.status_code, response.reason)
+
+```
+
+
+### HTTP protocol client
+https://docs.python.org/3/library/http.client.html
+

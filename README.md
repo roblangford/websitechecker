@@ -34,3 +34,18 @@ print(response.status_code, response.reason)
 ### HTTP protocol client
 https://docs.python.org/3/library/http.client.html
 
+## IsItUp
+
+This is a simple script to send a get request to a url and print the reason and status code.
+
+Execution: 
+
+```bash
+python3 isitup.py https://www.github.com
+OK 200
+
+python3 isitup.py
+Please input a URL to check: https://github.com
+OK 200
+
+```

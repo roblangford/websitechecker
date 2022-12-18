@@ -54,6 +54,7 @@ def isitup(url):
 def main(url):
     # Call the isitup function, passing the input url
     response = isitup(input_url)
+    # return and print the response reason and status_code
     print(response.reason, response.status_code)
 
 
